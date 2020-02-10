@@ -1,3 +1,5 @@
+use std::thread;
+
 struct Philosopher {
     name: String,
 }
