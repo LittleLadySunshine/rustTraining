@@ -1,0 +1,115 @@
+INFO: 2020/02/10 14:18:12 waflyctl.go:1902: using rule action set by CLI:  block
+INFO: 2020/02/10 14:18:12 waflyctl.go:1912: using rule IDS set by CLI:
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010010
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010020
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010030
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010040
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010050
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010060
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010070
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010080
+INFO: 2020/02/10 14:18:12 waflyctl.go:1917: - ruleID: 1010090
+INFO: 2020/02/10 14:18:13 waflyctl.go:2014: Active config version: 49.
+INFO: 2020/02/10 14:18:13 waflyctl.go:2101: Editing Rules
+WARNING: 2020/02/10 14:18:13 waflyctl.go:2102: Publisher, Rules, OWASP Settings and Tags changes are versionless actions and thus do not generate a new config version
+INFO: 2020/02/10 14:18:13 waflyctl.go:1070: Rule 1010010 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:13 waflyctl.go:1070: Rule 1010020 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010030 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010040 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010050 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010060 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010070 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010080 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:14 waflyctl.go:1070: Rule 1010090 was configured in the WAF with action block
+INFO: 2020/02/10 14:18:15 waflyctl.go:2109: Rule set successfully patched
+INFO: 2020/02/10 14:18:15 waflyctl.go:2171: Completed
+INFO: 2020/02/10 14:22:50 waflyctl.go:2014: Active config version: 1.
+WARNING: 2020/02/10 14:22:51 waflyctl.go:2176: Provisioning a new WAF on Service ID: 44iUbM1f18BhnH18J8f6u2
+INFO: 2020/02/10 14:22:51 waflyctl.go:303: New version 3 created
+INFO: 2020/02/10 14:22:52 waflyctl.go:338: Prefetch condition "WAF_Prefetch" created
+INFO: 2020/02/10 14:22:52 waflyctl.go:371: Response object "WAF_Response" created
+INFO: 2020/02/10 14:22:53 waflyctl.go:400: VCL snippet "Fastly_WAF_Snippet" created
+INFO: 2020/02/10 14:22:54 waflyctl.go:471: WAF "2ZT9rZYscOtVdssu28XmMy" created
+INFO: 2020/02/10 14:22:54 waflyctl.go:530: OWASP settings updated with the following settings:
+INFO: 2020/02/10 14:22:54 waflyctl.go:532:  - AllowedHTTPVersions: HTTP/1.0 HTTP/1.1 HTTP/2
+INFO: 2020/02/10 14:22:54 waflyctl.go:533:  - AllowedMethods: GET HEAD POST OPTIONS PUT PATCH DELETE
+INFO: 2020/02/10 14:22:54 waflyctl.go:534:  - AllowedRequestContentType: application/x-www-form-urlencoded|multipart/form-data|text/xml|application/xml|application/x-amf|application/json|text/plain
+INFO: 2020/02/10 14:22:54 waflyctl.go:535:  - AllowedRequestContentTypeCharset: utf-8|iso-8859-1|iso-8859-15|windows-1252
+INFO: 2020/02/10 14:22:54 waflyctl.go:536:  - ArgLength: 1600
+INFO: 2020/02/10 14:22:54 waflyctl.go:537:  - ArgNameLength: 800
+INFO: 2020/02/10 14:22:54 waflyctl.go:538:  - CombinedFileSizes: 10000000
+INFO: 2020/02/10 14:22:54 waflyctl.go:539:  - CriticalAnomalyScore: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:540:  - CRSValidateUTF8Encoding: false
+INFO: 2020/02/10 14:22:54 waflyctl.go:541:  - ErrorAnomalyScore: 4
+INFO: 2020/02/10 14:22:54 waflyctl.go:542:  - HTTPViolationScoreThreshold: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:543:  - InboundAnomalyScoreThreshold: 15
+INFO: 2020/02/10 14:22:54 waflyctl.go:544:  - LFIScoreThreshold: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:545:  - MaxFileSize: 10000000
+INFO: 2020/02/10 14:22:54 waflyctl.go:546:  - MaxNumArgs: 255
+INFO: 2020/02/10 14:22:54 waflyctl.go:547:  - NoticeAnomalyScore: 2
+INFO: 2020/02/10 14:22:54 waflyctl.go:548:  - ParanoiaLevel: 3
+INFO: 2020/02/10 14:22:54 waflyctl.go:549:  - PHPInjectionScoreThreshold: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:550:  - RCEScoreThreshold: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:551:  - RestrictedHeaders: /proxy/ /lock-token/ /content-range/ /translate/ /if/
+INFO: 2020/02/10 14:22:54 waflyctl.go:552:  - RFIScoreThreshold: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:553:  - SessionFixationScoreThreshold: 5
+INFO: 2020/02/10 14:22:54 waflyctl.go:554:  - SQLInjectionScoreThreshold: 15
+INFO: 2020/02/10 14:22:54 waflyctl.go:555:  - XssScoreThreshold: 15
+INFO: 2020/02/10 14:22:54 waflyctl.go:556:  - TotalArgLength: 6400
+INFO: 2020/02/10 14:22:54 waflyctl.go:557:  - WarningAnomalyScore: 3
+INFO: 2020/02/10 14:22:55 waflyctl.go:422: Logging endpoint "soc-weblogs" created
+INFO: 2020/02/10 14:22:57 waflyctl.go:450: Logging endpoint "soc-waflogs" created
+INFO: 2020/02/10 14:23:12 waflyctl.go:1008: 295 rule(s) added in log mode for tag: owasp
+INFO: 2020/02/10 14:23:24 waflyctl.go:1008: 25 rule(s) added in log mode for tag: application-multi
+INFO: 2020/02/10 14:23:24 waflyctl.go:1014: Total 320 rule(s) added via tags
+INFO: 2020/02/10 14:23:26 waflyctl.go:1139: Using web logging condition : "waf.executed"
+INFO: 2020/02/10 14:23:26 waflyctl.go:1190: Creating WAF logging condition : "waf-soc-logging"
+INFO: 2020/02/10 14:23:27 waflyctl.go:1206: Assigning condition "waf-soc-logging" () to web log "soc-weblogs"
+INFO: 2020/02/10 14:23:28 waflyctl.go:2211: Rule set successfully patched
+INFO: 2020/02/10 14:23:30 waflyctl.go:831: Config Version 3 validated. Remember to activate it
+INFO: 2020/02/10 14:23:30 waflyctl.go:2219: Completed
+INFO: 2020/02/10 14:25:23 waflyctl.go:2014: Active config version: 1.
+WARNING: 2020/02/10 14:25:23 waflyctl.go:2176: Provisioning a new WAF on Service ID: 2Dp31EBpyFYXgdYoxDz211
+INFO: 2020/02/10 14:25:23 waflyctl.go:303: New version 2 created
+INFO: 2020/02/10 14:25:24 waflyctl.go:338: Prefetch condition "WAF_Prefetch" created
+INFO: 2020/02/10 14:25:25 waflyctl.go:371: Response object "WAF_Response" created
+INFO: 2020/02/10 14:25:25 waflyctl.go:400: VCL snippet "Fastly_WAF_Snippet" created
+INFO: 2020/02/10 14:25:26 waflyctl.go:471: WAF "0TVS5NgBpIIJffFqNwcUWt" created
+INFO: 2020/02/10 14:25:27 waflyctl.go:530: OWASP settings updated with the following settings:
+INFO: 2020/02/10 14:25:27 waflyctl.go:532:  - AllowedHTTPVersions: HTTP/1.0 HTTP/1.1 HTTP/2
+INFO: 2020/02/10 14:25:27 waflyctl.go:533:  - AllowedMethods: GET HEAD POST OPTIONS PUT PATCH DELETE
+INFO: 2020/02/10 14:25:27 waflyctl.go:534:  - AllowedRequestContentType: application/x-www-form-urlencoded|multipart/form-data|text/xml|application/xml|application/x-amf|application/json|text/plain
+INFO: 2020/02/10 14:25:27 waflyctl.go:535:  - AllowedRequestContentTypeCharset: utf-8|iso-8859-1|iso-8859-15|windows-1252
+INFO: 2020/02/10 14:25:27 waflyctl.go:536:  - ArgLength: 1600
+INFO: 2020/02/10 14:25:27 waflyctl.go:537:  - ArgNameLength: 800
+INFO: 2020/02/10 14:25:27 waflyctl.go:538:  - CombinedFileSizes: 10000000
+INFO: 2020/02/10 14:25:27 waflyctl.go:539:  - CriticalAnomalyScore: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:540:  - CRSValidateUTF8Encoding: false
+INFO: 2020/02/10 14:25:27 waflyctl.go:541:  - ErrorAnomalyScore: 4
+INFO: 2020/02/10 14:25:27 waflyctl.go:542:  - HTTPViolationScoreThreshold: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:543:  - InboundAnomalyScoreThreshold: 15
+INFO: 2020/02/10 14:25:27 waflyctl.go:544:  - LFIScoreThreshold: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:545:  - MaxFileSize: 10000000
+INFO: 2020/02/10 14:25:27 waflyctl.go:546:  - MaxNumArgs: 255
+INFO: 2020/02/10 14:25:27 waflyctl.go:547:  - NoticeAnomalyScore: 2
+INFO: 2020/02/10 14:25:27 waflyctl.go:548:  - ParanoiaLevel: 3
+INFO: 2020/02/10 14:25:27 waflyctl.go:549:  - PHPInjectionScoreThreshold: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:550:  - RCEScoreThreshold: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:551:  - RestrictedHeaders: /proxy/ /lock-token/ /content-range/ /translate/ /if/
+INFO: 2020/02/10 14:25:27 waflyctl.go:552:  - RFIScoreThreshold: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:553:  - SessionFixationScoreThreshold: 5
+INFO: 2020/02/10 14:25:27 waflyctl.go:554:  - SQLInjectionScoreThreshold: 15
+INFO: 2020/02/10 14:25:27 waflyctl.go:555:  - XssScoreThreshold: 15
+INFO: 2020/02/10 14:25:27 waflyctl.go:556:  - TotalArgLength: 6400
+INFO: 2020/02/10 14:25:27 waflyctl.go:557:  - WarningAnomalyScore: 3
+INFO: 2020/02/10 14:25:27 waflyctl.go:422: Logging endpoint "soc-weblogs" created
+INFO: 2020/02/10 14:25:28 waflyctl.go:450: Logging endpoint "soc-waflogs" created
+INFO: 2020/02/10 14:25:42 waflyctl.go:1008: 295 rule(s) added in log mode for tag: owasp
+INFO: 2020/02/10 14:25:54 waflyctl.go:1008: 25 rule(s) added in log mode for tag: application-multi
+INFO: 2020/02/10 14:25:54 waflyctl.go:1014: Total 320 rule(s) added via tags
+INFO: 2020/02/10 14:25:54 waflyctl.go:1139: Using web logging condition : "waf.executed"
+INFO: 2020/02/10 14:25:54 waflyctl.go:1190: Creating WAF logging condition : "waf-soc-logging"
+INFO: 2020/02/10 14:25:55 waflyctl.go:1206: Assigning condition "waf-soc-logging" () to web log "soc-weblogs"
+INFO: 2020/02/10 14:25:56 waflyctl.go:2211: Rule set successfully patched
+INFO: 2020/02/10 14:25:57 waflyctl.go:831: Config Version 2 validated. Remember to activate it
+INFO: 2020/02/10 14:25:57 waflyctl.go:2219: Completed
